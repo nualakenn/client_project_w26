@@ -111,6 +111,10 @@ ol {display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     list-style-type: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 20px 100px;
 
 }
 
@@ -120,13 +124,6 @@ ol li{
     border-radius: 20px;
 }
 
-
-ol {
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    padding: 20px 100px;
-}
 
 .resources{
 background-color: #D3D3D3;
@@ -161,7 +158,7 @@ footer a:visited{
 
 
 
-/* images */
+/* images/video */
 
 img {
     max-width: 80%;
@@ -169,5 +166,13 @@ img {
     padding: 20px 50px;
 }
 
+.video{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.video iframe{
+    grid-column: span 2 / 4;
+}
 
 
