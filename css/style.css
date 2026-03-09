@@ -1,0 +1,173 @@
+body {
+    background-color: #F2F2F2;
+    font-size: 18px;
+    line-height: 1.15;
+}
+
+
+
+/* header skip to nav */
+
+header .skip a{
+    position: absolute;
+     top: -65px;
+    color: #00274C;
+}
+
+header .skip a:focus{
+     top: 25px;
+}
+
+
+
+/* navigation */
+nav{
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    background-color: #00274C;
+    border: 4px solid #FFCB05;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+nav li{
+  display:block;
+  color: #FFCB05;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+nav a:link,
+nav a:visited{
+    color: #FFCB05;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #FFCB05;
+  color: #000000;
+}
+
+*:focus {
+  outline: none;
+  border: 4px solid #FFCB05;
+}
+
+
+
+
+/* headers */
+
+h1 {
+    color: #00274C;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    line-height: 1;
+    padding: 20px 20px;
+}
+
+h2 {
+    color: #00274C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 1;
+    padding: 20px 20px;
+}
+
+h3 {
+    color: #00274C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 1;
+    padding: 20px 20px;
+}
+
+
+
+/* text */
+
+p {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 20px 50px;
+}
+
+
+/* lists */
+
+ul {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 20px 100px;
+}
+
+
+
+ol {display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    list-style-type: none;
+
+}
+
+ol li{
+    background-color: #D3D3D3;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+ol {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 20px 100px;
+}
+
+.resources{
+background-color: #D3D3D3;
+border-radius: 20px;
+margin: 20px;
+}
+
+
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #00274C;
+    padding: 50px 0;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+footer a:link,
+footer a:visited{
+    color: #FFCB05;
+}
+
+.social{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* images */
+
+img {
+    max-width: 80%;
+    height: auto;
+    padding: 20px 50px;
+}
+
+
+
