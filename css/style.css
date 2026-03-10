@@ -28,7 +28,7 @@ nav{
     margin: 20px;
     padding: 20px;
     background-color: #00274C;
-    border: 4px solid #FFCB05;
+    border: 4px solid #ffffff;
     border-radius: 10px;
 }
 
@@ -104,6 +104,21 @@ p {
     padding: 20px 50px;
 }
 
+.booking{
+    text-align: center;
+    background-color: #FFCB05;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+.booking p:hover,
+.booking p:focus {
+  background-color: #fad95c;
+  color: #000000;
+  border-radius: 10px;
+}
+
 
 /* lists */
 
@@ -140,6 +155,7 @@ background-color: #D3D3D3;
 border-radius: 20px;
 margin: 20px;
 }
+
 
 
 /* footer */
