@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Resumes</title>
 </head>
 <body>
@@ -118,15 +119,30 @@
         <div></div>
         <div></div>
     </main>
+
     <footer>
-        <p>University of Michigan School of Information | <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office </a> | umsi.careers@umich.edu</p>
+        <p>University of Michigan School of Information | <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office</a> | umsi.careers@umich.edu</p>
         <div class="social">
-          <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fumschoolofinformation&is_from_rle">Instagram</a>
-          <a href="https://www.linkedin.com/school/university-of-michigan---school-of-information/">LinkedIn</a>
-          <a href="https://www.youtube.com/user/schoolofinformation">YouTube</a>
-        </div>  
-      </footer>
-    
+          <div class="social">
+          <!--.social content modified from ChatGPT with the prompt: "Based on my current code,
+         how would I make the social media links into icons  -->
+      <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fumschoolofinformation&is_from_rle" target="_blank">
+          <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/school/university-of-michigan---school-of-information/" target="_blank">
+         <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.youtube.com/user/schoolofinformation" target="_blank">
+         <i class="fab fa-youtube"></i>
+      </a>
+        </div>
+        </div>
+         <p><span id="year"></span></p>
+        <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
+        </footer>
+
 </body>
 
 </html>
