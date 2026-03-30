@@ -223,6 +223,8 @@ img {
 }
 
 
+
+
 @media screen and (min-width: 600px){
 
     nav ul{
@@ -241,7 +243,9 @@ ol {display: grid;
 }
 
 
-/* Dark mode created with help from https://dev.to/nilebits/10-amazing-things-you-can-do-with-simple-javascript-2d96 */
+/* Dark mode created with help from
+https://dev.to/nilebits/10-amazing-things-you-can-do-with-simple-javascript-2d96 */
+
 
 body {
     transition: background-color 0.5s, color 0.3s;

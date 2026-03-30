@@ -16,7 +16,6 @@
   </div>
         <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
 
-
     <button id="toggle-dark-mode">Toggle Dark Mode</button>
     <script>
         const button = document.getElementById('toggle-dark-mode');
@@ -133,26 +132,39 @@
 
     <footer>
         <p>University of Michigan School of Information | <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office</a> | umsi.careers@umich.edu</p>
-        <div class="social">
-          <div class="social">
-          <!--.social content modified from ChatGPT with the prompt: "Based on my current code,
+
+        <!--.social content modified from ChatGPT with the prompt: "Based on my current code,
          how would I make the social media links into icons  -->
-      <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fumschoolofinformation&is_from_rle" target="_blank">
-          <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://www.linkedin.com/school/university-of-michigan---school-of-information/" target="_blank">
-         <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="https://www.youtube.com/user/schoolofinformation" target="_blank">
-         <i class="fab fa-youtube"></i>
-      </a>
-        </div>
-        </div>
-         <p><span id="year"></span></p>
-        <script>
-        document.getElementById("year").innerHTML = new Date().getFullYear();
-        </script>
-        </footer>
+
+        <!-- I also used chat to help fix some accessibility issues such as
+         creating alt text for the links. -->
+
+  <div class="social">
+    <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fumschoolofinformation&is_from_rle"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="University of Michigan School of Information Instagram">
+      <i class="fab fa-instagram" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.linkedin.com/school/university-of-michigan---school-of-information/"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="University of Michigan School of Information LinkedIn">
+      <i class="fab fa-linkedin" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.youtube.com/user/schoolofinformation"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="University of Michigan School of Information YouTube">
+      <i class="fab fa-youtube" aria-hidden="true"></i>
+    </a>
+  </div>
+
+  <p><span id="year"></span></p>
+    <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+</footer>
 
 </body>
 
