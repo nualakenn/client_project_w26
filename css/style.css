@@ -111,7 +111,6 @@ p {
     background-color: #FFCB05;
     border-radius: 10px;
     margin: 20px;
-
 }
 
 .booking p:hover,
@@ -240,3 +239,47 @@ ol {display: grid;
 
 
 }
+
+
+/* Dark mode created with help from https://dev.to/nilebits/10-amazing-things-you-can-do-with-simple-javascript-2d96 */
+
+body {
+    transition: background-color 0.5s, color 0.3s;
+    }
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+
+    h1{
+        color: #ffffff;
+    }
+
+    h2, h3{
+        color: #FFCB05;
+    }
+
+    p, ul, ol{
+        color: #D3D3D3
+    }
+
+    ol li, .resources{
+    background-color: #00274C;
+    }
+
+    .resources a, .start a, .list a, ul a{
+        color: #FFCB05;
+    }
+
+    .booking p{
+        color: #000000;
+    }
+
+    nav a:hover,
+    nav a:focus {
+     background-color: #FFCB05;
+     border-radius: 6px;
+     color: #000000;
+    }
+
+    }
